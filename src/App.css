@@ -1,0 +1,41 @@
+.app {
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.country-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.countryCard {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.countryCard img {
+  width: 100px;
+  height: 100px;
+}
+
+.countryCard p {
+  margin: 10px 20px;
+  font-size: 14px;
+}
